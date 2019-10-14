@@ -1,0 +1,11 @@
+E:\Projects VS\ASPProjects-master\CommonFiles\bin\Debug\CommonFiles.dll
+E:\Projects VS\ASPProjects-master\CommonFiles\bin\Debug\CommonFiles.pdb
+E:\Projects VS\ASPProjects-master\CommonFiles\obj\Debug\CommonFiles.csprojAssemblyReference.cache
+E:\Projects VS\ASPProjects-master\CommonFiles\obj\Debug\CommonFiles.Resource.BoxResources.resources
+E:\Projects VS\ASPProjects-master\CommonFiles\obj\Debug\CommonFiles.Resource.CVResources.resources
+E:\Projects VS\ASPProjects-master\CommonFiles\obj\Debug\CommonFiles.Resource.ErrorResources.resources
+E:\Projects VS\ASPProjects-master\CommonFiles\obj\Debug\CommonFiles.Resource.UserResources.resources
+E:\Projects VS\ASPProjects-master\CommonFiles\obj\Debug\CommonFiles.csproj.GenerateResource.cache
+E:\Projects VS\ASPProjects-master\CommonFiles\obj\Debug\CommonFiles.csproj.CoreCompileInputs.cache
+E:\Projects VS\ASPProjects-master\CommonFiles\obj\Debug\CommonFiles.dll
+E:\Projects VS\ASPProjects-master\CommonFiles\obj\Debug\CommonFiles.pdb

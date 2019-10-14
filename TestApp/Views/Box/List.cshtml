@@ -1,0 +1,39 @@
+﻿@using CommonFiles.Resource;
+@using System.Reflection;
+@using TestApp.Models;
+@model IEnumerable<BoxModel>
+@{
+    ViewBag.Title = @BoxResources.ListBoxes;
+}
+
+<h2>@BoxResources.ListBoxes</h2>
+<table class="table table-bordered table-striped table-hover">
+    <thead>
+        <tr>
+            <th></th>
+            @foreach (PropertyInfo property in typeof(BoxModelHack).GetProperties().Where(property => property.Name != "ID"))
+            {
+                <th>
+                    @typeof(BoxResources).GetProperty(property.Name).GetMethod.Invoke(null, null)
+                </th>
+            }
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (BoxModel box in Model)
+        {
+            <tr>
+                <td>@Html.ActionLink(BoxResources.Edit,"Edit","Box",new { id = box.ID },new { @class = "btn btn-primary  glyphicon glyphicon-edit" })</td>
+                @foreach (PropertyInfo property in box.GetType().GetProperties().Where(property=>property.Name!="ID"))
+                {
+                <td>
+                    @Html.Raw(property.GetValue(box))
+                </td>
+                }   
+                <td>@Html.ActionLink(" ","Delete","Box",new { id = box.ID }, new { @class = "btn btn-danger  glyphicon glyphicon-remove" })</td>
+            </tr>
+        }
+    </tbody>
+</table>
+

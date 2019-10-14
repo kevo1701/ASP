@@ -1,0 +1,9 @@
+E:\Projects VS\ASPProjects-master\InfrastructureInterface\obj\Debug\InfrastructureInterface.csprojAssemblyReference.cache
+E:\Projects VS\ASPProjects-master\InfrastructureInterface\obj\Debug\InfrastructureInterface.csproj.CoreCompileInputs.cache
+E:\Projects VS\ASPProjects-master\InfrastructureInterface\bin\Debug\InfrastructureInterface.dll
+E:\Projects VS\ASPProjects-master\InfrastructureInterface\bin\Debug\InfrastructureInterface.pdb
+E:\Projects VS\ASPProjects-master\InfrastructureInterface\bin\Debug\CommonFiles.dll
+E:\Projects VS\ASPProjects-master\InfrastructureInterface\bin\Debug\CommonFiles.pdb
+E:\Projects VS\ASPProjects-master\InfrastructureInterface\obj\Debug\InfrastructureInterface.csproj.CopyComplete
+E:\Projects VS\ASPProjects-master\InfrastructureInterface\obj\Debug\InfrastructureInterface.dll
+E:\Projects VS\ASPProjects-master\InfrastructureInterface\obj\Debug\InfrastructureInterface.pdb

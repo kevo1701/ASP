@@ -1,0 +1,21 @@
+﻿@model TestApp.Models.SingletonBoxModel
+@{
+    ViewBag.Title = CommonFiles.Resource.BoxResources.EditPageName;
+}
+<h2>@CommonFiles.Resource.BoxResources.EditPageName</h2>
+@using (Html.BeginForm("Edit", "ATP", FormMethod.Post))
+{
+    @Html.HiddenFor(model => model.ID);
+    foreach (System.Reflection.PropertyInfo property in Model.GetType().GetProperties().Where(property => property.Name != "ID"))
+    {
+        <div class="row">
+            @Html.Label(property.Name, new { @class = "col-md-2" })
+            <div class="col-md-4">
+                @Html.TextBox(property.Name, property.GetValue(Model), new { @class = "form-control" })
+                @Html.ValidationMessage(property.Name)
+            </div>
+        </div>
+    }
+
+    <input class="btn btn-default" type="submit" value="Send" />
+}
